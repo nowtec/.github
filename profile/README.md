@@ -1,173 +1,145 @@
 <div align="center">
 
-# 🚀 nowCRM by nowtec solutions
+# nowtec solutions AG
 
-### *Open Source CRM. Your Data. Your Rules.*
+### *Digital tools built for NGOs that actually work when it matters most*
 
-**The powerful, privacy-first CRM platform built for digital sovereignty**
-
-[![License](https://img.shields.io/badge/License-Open_Source-green?style=for-the-badge)](https://github.com/nowtec/nowCRM)
-[![Swiss Hosted](https://img.shields.io/badge/Swiss-Hosted-red?style=for-the-badge&logo=switzerland)](https://nowtec.solutions)
-[![GDPR Compliant](https://img.shields.io/badge/GDPR-Compliant-blue?style=for-the-badge)](https://nowtec.solutions)
-
-[🌐 Website](https://nowtec.solutions/products/crm/) • [☁️ Managed Hosting](https://nowtec.solutions/products/crm/)
+[![Website](https://img.shields.io/badge/Website-nowtec.solutions-blue?style=for-the-badge)](https://nowtec.solutions)
+[![Swiss Made](https://img.shields.io/badge/Swiss-Made-red?style=for-the-badge&logo=switzerland)](https://nowtec.solutions/about/)
 
 ---
 
 </div>
 
-## 🌟 Why nowCRM?
+## 🌟 About 
 
-**nowCRM** is an open-source CRM platform that gives you complete control over your customer relationships, donor management, and communications without sacrificing power or ease of use. Built on principles of **digital sovereignty** and **data privacy**, it's the CRM for organizations that refuse to compromise.
-
-### 🎯 Built For
-
-- 🏢 **Tech-Savvy Organizations** — Teams that want full infrastructure control
-- 🚀 **Startups & Scale-ups** — Fast-moving companies needing flexibility
-- 🤝 **NGOs & Nonprofits** — Mission-driven organizations managing donors and volunteers
-- 🏛️ **Enterprises** — Businesses requiring data sovereignty and compliance
-- 🌍 **Privacy-First Teams** — Anyone who values GDPR compliance and Swiss data standards
+We create software solutions specifically for non-profits and NGOs. Our team comes from activism backgrounds, where we learned firsthand how important reliable tech infrastructure is during critical campaigns. Standard tools often miss the mark for mission-driven organizations, so we build flexible, customizable solutions that help you focus on impact instead of fighting with technology.
 
 ---
 
-## ✨ Features That Matter
+## 🎯 nowCRM - Open Source CRM for Mission-Driven Organizations
 
-### 🎨 **AI-Powered Composer**
-Create campaigns and messages in seconds with AI assistance. One-click publishing across email, SMS, and social platforms. Customizable templates for every audience.
+<div align="center">
 
-### 🗺️ **Automated Journeys**
-Map supporter or customer journeys with smart triggers. Build automated touchpoints that strengthen relationships. Real-time tracking and optimization for maximum impact.
+[![GitHub](https://img.shields.io/badge/GitHub-nowCRM-181717?style=for-the-badge&logo=github)](https://github.com/nowtec/nowcrm)
+[![License](https://img.shields.io/badge/License-AGPL--3.0-green?style=for-the-badge)](https://github.com/nowtec/nowcrm/blob/main/LICENSE)
+[![Open Source](https://img.shields.io/badge/Open-Source-orange?style=for-the-badge)](https://github.com/nowtec/nowcrm)
 
-### 🔗 **Flexible Integrations**
-Connect seamlessly with fundraising platforms, payment providers, and business tools. REST, GraphQL, and no-code integration options. Pre-built connectors for popular services.
+</div>
 
-### 👥 **Advanced Contact Management**
-Organize unlimited contacts with precision. Custom fields, smart filters, and powerful segmentation. Complete activity history tracking.
+Your open source CRM with multichannel outreach capabilities and efficient data management at scale. Built for organizations that need both power and flexibility.
 
-### 📱 **Multichannel Messaging**
-Engage contacts through email, SMS, and social platforms from a unified dashboard. Consistent communication across all channels.
+### ✨ Key Features
 
-### 🤖 **AI Integration**
-Smart enrichment for contact data and audience segmentation. Automated campaigns and follow-ups. Predictive insights on engagement and performance.
+- **🎨 Composer** - AI-powered campaign creation with one-click multichannel publishing
+- **🚀 Journeys** - Automated workflows with smart triggers for personalized outreach
+- **🔗 Integrations** - REST, GraphQL, and no-code connections to fundraising and payment platforms
+- **📇 Advanced Contact Management** - Unlimited contacts with custom fields and smart segmentation
+- **🤖 AI Integration** - Smart enrichment, predictive insights, and real-time analytics
+- **📱 Multichannel Messaging** - Engage through email, SMS, and social platforms from one dashboard
 
-### 📊 **Unlimited Scalability**
-Add as many contacts and data records as you need. No artificial limits. Grows with your organization.
+### 🏗️ Architecture
+
+nowCRM connects several microservices into one modular solution:
+
+| Service | Purpose |
+|---------|---------|
+| **Strapi 5** | Headless CMS as universal data backend and admin panel |
+| **Composer** | Content generation, channel dispatch, and AWS SES integration |
+| **Journeys** | Automated multi-step marketing workflows |
+| **DAL** | Data Access Layer for heavy async and bulk operations |
+| **Frontend** | Next.js 15 web interface connecting all services |
+
+### 🎭 Two Deployment Options
+
+**Open Source** - Self-hosted with full control
+- Complete freedom to customize and extend
+- Community support and collaboration
+- Kubernetes Helm chart for advanced deployments
+- Perfect for tech-savvy teams
+
+**Managed** - Fully hosted on Swiss servers
+- 24/7 monitoring and premium support
+- GDPR compliant, Swiss data centers
+- Pre-configured channels and integrations
+- SLA-backed uptime guarantees
+
+[Explore nowCRM →](https://github.com/nowtec/nowcrm) | [Book a Demo →](https://nowtec.solutions/demo/)
 
 ---
-## 📦 Deployment Options
+
+<div align="center">
+
+## 🛠️ Other Products
+
+</div>
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🔓 **Self-Hosted (Open Source)**
+### 📊 nowBI
+**Data analytics and insights**
 
-**Complete Control. Zero Vendor Lock-in.**
+Turn your campaign and financial data into clear, actionable insights. Make informed decisions based on real data and demonstrate your impact effectively.
 
-✅ Host on your infrastructure  
-✅ Kubernetes Helm Chart included  
-✅ Custom extensions & modifications  
-✅ Community-driven support  
-✅ No licensing fees  
-✅ Full source code access  
-
-**Perfect for:**
-- Organizations with IT resources
-- Teams requiring specific customizations
-- Privacy-focused institutions
-- Development & testing environments
+[Learn More →](https://nowbi.ch/en)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### ☁️ **Managed Hosting**
+### 📚 nowWIKI
+**Internal knowledge management**
 
-**Hassle-Free. Enterprise-Ready.**
+Build a central knowledge base that keeps institutional knowledge from walking out the door with volunteers and staff. Keep your team aligned and information accessible to everyone who needs it.
 
-✅ Swiss cloud hosting  
-✅ GDPR compliant by default  
-✅ 24/7 monitoring & support  
-✅ SLA guarantees  
-✅ Automatic updates  
-✅ Enhanced security modules  
+[Learn More →](https://nowtec.solutions/products/nowwiki/)
 
-**Perfect for:**
-- Fast deployment needs
-- Limited IT resources
-- Compliance requirements
-- Production workloads
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-[**Learn More →**](https://nowtec.solutions/products/crm/)
+### 🌐 nowSITE
+**Website development and integration**
+
+Your website is your primary fundraising and mobilization tool. We build sites that look professional and integrate seamlessly with your CRM to drive real results.
+
+[Learn More →](https://nowtec.solutions/products/nowsite/)
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 nowLLM
+**Private AI solutions**
+
+Use AI to search and analyze your organization's data while maintaining complete control. Your information stays private and secure, no third-party data sharing involved.
+
+[Learn More →](https://nowtec.solutions/products/nowllm/)
 
 </td>
 </tr>
 </table>
 
-
-
-### 💬 Get Help
-
-- **GitHub Issues:** [Report bugs](https://github.com/nowtec/nowcrm/issues)
-
-
-### 🆘 Enterprise Support
-
-Need guaranteed SLA, priority support, or custom development?
-
-[**Explore Managed Hosting →**](https://nowtec.solutions/products/crm/)
-
 ---
-
-## 🏆 Why Choose Open Source?
-
-```
-┌─────────────────────────────────────────────────────────┐
-│  🔓 Complete Control      │  🔒 Data Privacy            │
-│  No vendor lock-in        │  Host anywhere you choose   │
-│  Customize everything     │  GDPR compliant by design   │
-├─────────────────────────────────────────────────────────┤
-│  💰 Cost Effective        │  🚀 Community Driven        │
-│  No licensing fees        │  Benefit from contributions │
-│  Scale without limits     │  Faster innovation cycle    │
-└─────────────────────────────────────────────────────────┘
-```
-
----
-
-
-## 🏢 About nowtec solutions
-
-**nowtec solutions AG** is a Zürich-based solutions provider developing solutions for NGO, automations and AI Integration
-
-## Other Solutions
-
-[**Explore All Services →**](https://nowtec.solutions/products/)
-
----
-
-## 🚀 Get Started Today
 
 <div align="center">
 
-### Choose Your Path
+## 💬 Get in Touch
 
-[![Self-Host](https://img.shields.io/badge/🔓-Self_Host_Now-success?style=for-the-badge)](https://github.com/nowtec/nowcrm)
-[![Try Demo](https://img.shields.io/badge/🎮-Try_Demo-blue?style=for-the-badge)](https://crm-demo.nowtec.solutions)
-[![Managed Hosting](https://img.shields.io/badge/☁️-Managed_Hosting-purple?style=for-the-badge)](https://nowtec.solutions/products/crm/)
+Ready to transform your organization's operations?
 
----
+[![Contact Us](https://img.shields.io/badge/Contact_Us-Let's_Talk-success?style=for-the-badge)](https://nowtec.solutions/contact/)
+[![Email](https://img.shields.io/badge/Email-info@nowtec.solutions-blue?style=for-the-badge&logo=gmail)](mailto:info@nowtec.solutions)
 
-### Connect With Us
+### Follow Us
 
-[![Website](https://img.shields.io/badge/🌐-nowtec.solutions-0066cc?style=flat-square)](https://nowtec.solutions)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/nowtec)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077b5?style=flat-square&logo=linkedin)](https://www.linkedin.com/company/96182193)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=flat-square&logo=twitter)](https://x.com/nowtecsolutions)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-nowtec-0077B5?style=for-the-badge&logo=linkedin)](https://md.linkedin.com/company/nowtec-solutions-ag)
+[![Twitter](https://img.shields.io/badge/Twitter-@nowtec-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/nowtecsolutions)
+[![GitHub](https://img.shields.io/badge/GitHub-nowtec-181717?style=for-the-badge&logo=github)](https://github.com/nowtec)
 
 ---
 
-**⭐ Star us on GitHub** • **🔱 Fork and contribute** • **💬 Join our community**
-
-*Building the future of open-source CRM, one commit at a time.*
+*Built for organizations that are changing the world* 🌍
 
 </div>
